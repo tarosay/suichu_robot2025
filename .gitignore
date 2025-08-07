@@ -1,0 +1,133 @@
+# /
+/.git
+
+# Word
+*.doc
+*.docx
+*.dot
+*.dotx
+
+# Excel
+*.xls
+*.xlsx
+*.xlsm
+*.xlt
+*.xltx
+
+# PowerPoint
+*.ppt
+*.pptx
+*.pps
+*.potx
+
+
+*.odt
+*.ods
+*.odp
+~*
+
+# --- 独自ファイルの無視設定 ---
+**/*.jw$
+**/*.BAK
+
+# --- Arduino IDE用 ---
+# Arduinoビルド・キャッシュ
+*.ino.*
+*.elf
+*.hex
+*.bin
+*.eep
+*.d
+*.dep
+*.map
+*.a
+*.o
+*.obj
+*.cproj
+*.sdf
+*.pde
+*.DS_Store
+build/
+.pio/
+.vscode/
+
+# Arduino IDE 2.x
+.sketches/
+.arduinoIDE/
+.arduino/
+
+# --- C/C++全般 ---
+# オブジェクトファイル
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.app
+*.lib
+*.a
+*.lo
+*.la
+*.prl
+
+# デバッグ・ログ
+*.log
+*.trace
+
+# CMake/Make
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- VS Code ---
+.vscode/
+.history/
+*.code-workspace
+
+# --- 一般的な無視ファイル ---
+# OS/エディタ共通
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.orig
+*.tmp.*
+~$*
+
+# Pythonキャッシュ（万が一使う場合に備え）
+__pycache__/
+*.pyc
+
+# バックアップファイル
+*~
+*.bak
+*.backup
+
+# IDE, Editor
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# テスト・生成物
+/test-output/
+*.test
+/tests/
+*.gcda
+*.gcno
+*.gcov
+
+# --- 追加でよくあるもの ---
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.*
+*.local
