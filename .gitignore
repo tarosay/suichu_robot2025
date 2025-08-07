@@ -2,23 +2,23 @@
 /.git
 
 # Word
-*.doc
-*.docx
-*.dot
-*.dotx
+#*.doc
+#*.docx
+#*.dot
+#*.dotx
 
 # Excel
-*.xls
-*.xlsx
-*.xlsm
-*.xlt
-*.xltx
+#*.xls
+#*.xlsx
+#*.xlsm
+#*.xlt
+#*.xltx
 
 # PowerPoint
-*.ppt
-*.pptx
-*.pps
-*.potx
+#*.ppt
+#*.pptx
+#*.pps
+#*.potx
 
 
 *.odt
